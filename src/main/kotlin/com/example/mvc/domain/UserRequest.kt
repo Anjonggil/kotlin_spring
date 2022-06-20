@@ -1,11 +1,9 @@
 package com.example.mvc.domain
 
 import com.example.mvc.validator.StringFormatDateTime
-import com.fasterxml.jackson.annotation.JsonProperty
 import com.fasterxml.jackson.databind.PropertyNamingStrategy
 import com.fasterxml.jackson.databind.annotation.JsonNaming
 import javax.validation.constraints.*
-import kotlin.math.min
 
 @JsonNaming(PropertyNamingStrategy.SnakeCaseStrategy::class)
 data class UserRequest (
